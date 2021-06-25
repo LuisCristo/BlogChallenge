@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-custom {
+    background-color: #f8a71a;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbarNav {
+    margin-right: 50px;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+nav .navbar-nav li a {
+    color: white;
+}
+
+nav .navbar-nav li a:hover {
+    color: #cf8300;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: white;
+} 
+
+form {
+    padding: 40px 40px 40px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    background-color: white;
+}
+  
+label {
+    margin-bottom: 10px;
+    color: #ec9909;
+    font-weight: bold;
+}
+
+.addButton {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8a71a;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.addButton:hover {
+    background-color: #db8b00;
+}
+
+.header {
+    margin-top: 80px;
+}
+
+.headerText1 {
+    border: 1px solid #eb9500;
+    color:#eb9500;
+    padding: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .blogPic {
+        margin-top: 100px;
+        height: 250px;
+        width: 300px;
+    }
+
+    .headerText1 {
+        font-size: 45px;
+    }
+    
+    .headerText2 {
+        font-size: 20px;
+    }
+
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    
+    .nav-item {
+        margin-left: 20px;
+    }
+}

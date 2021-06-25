@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-custom {
+    background-color: #f8a71a;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbarNav {
+    margin-right: 50px;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+nav .navbar-nav li a {
+    color: white;
+}
+
+nav .navbar-nav li a:hover {
+    color: #cf8300;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: white;
+} 
+
+.header {
+    margin-top: 100px;
+}
+
+.headerText1 {
+    margin-top: 30px;
+    color:#eb9500;
+    font-size: 60px;
+}
+
+.headerText2 {
+    color:#f5b23f;
+    font-size: 23px;
+}
+
+.headerButton1 {
+    color: white;
+    background-color: #f8a71a;
+    margin-top: 50px;
+    padding: 15px 25px 15px 25px;
+}
+
+.headerButton1:hover {
+    color: #f8a71a;
+    background-color: white;
+    border: 1px solid #f8a71a;
+}
+
+.blogs {
+    margin-top: 180px;
+    margin-bottom: 150px;
+}
+
+.blogsText1 {
+    border: 1px solid #eb9500;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #eb9500;
+}
+
+.cardblogs {
+    padding: 20px 30px 20px 30px;
+    box-shadow: 0px 0px 4px 2px #ffae23;
+    margin-bottom: 70px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.blogsText2 {
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: #f5b23f;
+}
+
+.blogsText3 {
+    font-size: 14px;
+    color: #9e9e9e;
+}
+
+.blogsText4 {
+    font-size: 40px;
+    color: #f5b23f;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blogPic {
+    height: 280px; 
+    width: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+    .blogPic {
+        margin-top: 100px;
+        height: 160px;
+        width: 320px;
+    }
+
+    .headerText1 {
+        font-size: 45px;
+    }
+    
+    .headerText2 {
+        font-size: 20px;
+    }
+
+    .navbar-brand {
+        margin-left: 20px;
+    }
+
+    .nav-item {
+        margin-left: 20px;
+    }
+}
